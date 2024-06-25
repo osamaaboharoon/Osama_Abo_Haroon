@@ -74,7 +74,17 @@ body {
   max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
   padding-inline: var(--gutter);
 }
+.video-loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.08;
+  z-index: -1;
+}
 /*Global styles*/
+
 .section {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -272,3 +282,12 @@ body {
   text-shadow: 0 0 2px var(--color-green);
 }
 /*end skills*/
+/*media*/
+.media {
+  align-items: center;
+  justify-content: center;
+}
+.media__video {
+  max-width: 100%;
+}
+/*end media*/
