@@ -71,7 +71,7 @@ ol {
 
 /*end css reset*/
 body,
-[type=submit] {
+[type="submit"] {
   font-size: 1.6rem;
   font-family: var(--font-family-raleway);
   background-color: var(--color-background);
@@ -236,7 +236,7 @@ body,
 
 .bio {
   -moz-column-gap: 7.4rem;
-       column-gap: 7.4rem;
+  column-gap: 7.4rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -335,8 +335,8 @@ body,
 .skills__items {
   transition: var(--transition-timing);
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .skills__title {
@@ -367,7 +367,7 @@ body,
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 7.4rem;
-       column-gap: 7.4rem;
+  column-gap: 7.4rem;
   row-gap: 7.5rem;
 }
 
@@ -407,7 +407,7 @@ body,
   line-height: 1.7;
 }
 
-.clients__vrapper {
+.clients__wrapper {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -422,7 +422,7 @@ body,
 .contact {
   grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 20rem;
-       column-gap: 20rem;
+  column-gap: 20rem;
   align-items: center;
 }
 
@@ -583,4 +583,4 @@ html:has(.toggle__checkbox:checked) {
     padding: 3rem 0;
     z-index: 1;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
